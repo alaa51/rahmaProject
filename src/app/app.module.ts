@@ -19,6 +19,8 @@ import {NzFormModule} from "ng-zorro-antd/form";
 import {NzInputModule} from "ng-zorro-antd/input";
 import {NzCheckboxModule} from "ng-zorro-antd/checkbox";
 import {NzButtonModule} from "ng-zorro-antd/button";
+import { EmployeesComponent } from './pages/employees/employees.component';
+import { AdminComponent } from './pages/admin/admin.component';
 
 registerLocaleData(en);
 
@@ -26,7 +28,9 @@ registerLocaleData(en);
   declarations: [
     AppComponent,
     LoginComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    EmployeesComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
